@@ -1,0 +1,156 @@
+[
+  {
+    "standard_id": "DEMO-LED-001",
+    "title": "Outdoor LED Lighting — Prototype Standard Record",
+    "year": 2026,
+    "status": "ACTIVE",
+    "category": "Lighting",
+    "description": "Prototype record representing standards applicable to outdoor LED lighting procurement.",
+    "keywords": [
+      "LED",
+      "lighting",
+      "street light",
+      "outdoor lighting",
+      "luminaire",
+      "illumination"
+    ],
+    "keyword_weights": {
+      "LED": 1,
+      "lighting": 1,
+      "street light": 4,
+      "outdoor lighting": 3,
+      "luminaire": 2,
+      "illumination": 2
+    },
+    "clauses": [
+      {
+        "clause": "P-4.1",
+        "title": "Lighting performance",
+        "evidence": "Verify required illumination and lighting performance parameters."
+      },
+      {
+        "clause": "P-5.2",
+        "title": "Environmental protection",
+        "evidence": "Verify suitability for outdoor environmental conditions."
+      }
+    ],
+    "references": [],
+    "related_standards": [
+      "DEMO-LED-TEST-001",
+      "DEMO-ELECTRICAL-001"
+    ]
+  },
+  {
+    "standard_id": "DEMO-LED-TEST-001",
+    "title": "LED Lighting Testing — Prototype Standard Record",
+    "year": 2026,
+    "status": "ACTIVE",
+    "category": "Testing",
+    "description": "Prototype record representing testing requirements associated with LED lighting equipment.",
+    "keywords": [
+      "LED testing",
+      "lighting test",
+      "testing",
+      "performance test",
+      "electrical test",
+      "luminaire test"
+    ],
+    "keyword_weights": {
+      "LED testing": 5,
+      "lighting test": 5,
+      "testing": 2,
+      "performance test": 5,
+      "electrical test": 4,
+      "luminaire test": 4
+    },
+    "clauses": [
+      {
+        "clause": "T-3.1",
+        "title": "Performance testing",
+        "evidence": "Required lighting performance tests should be identified before procurement."
+      },
+      {
+        "clause": "T-4.2",
+        "title": "Electrical testing",
+        "evidence": "Electrical safety and performance tests should be verified."
+      }
+    ],
+    "references": [],
+    "related_standards": [
+      "DEMO-LED-001"
+    ]
+  },
+  {
+    "standard_id": "DEMO-ELECTRICAL-001",
+    "title": "Electrical Safety — Prototype Standard Record",
+    "year": 2026,
+    "status": "ACTIVE",
+    "category": "Safety",
+    "description": "Prototype record representing electrical safety considerations for lighting equipment.",
+    "keywords": [
+      "electrical safety",
+      "electrical",
+      "safety",
+      "voltage",
+      "current",
+      "shock protection"
+    ],
+    "keyword_weights": {
+      "electrical safety": 5,
+      "electrical": 2,
+      "safety": 2,
+      "voltage": 3,
+      "current": 3,
+      "shock protection": 5
+    },
+    "clauses": [
+      {
+        "clause": "S-2.1",
+        "title": "Electrical safety",
+        "evidence": "Electrical safety requirements should be explicitly specified and verified."
+      }
+    ],
+    "references": [],
+    "related_standards": [
+      "DEMO-LED-001",
+      "DEMO-LED-TEST-001"
+    ]
+  },
+  {
+    "standard_id": "DEMO-IP-001",
+    "title": "Ingress Protection — Prototype Standard Record",
+    "year": 2026,
+    "status": "ACTIVE",
+    "category": "Environmental Protection",
+    "description": "Prototype record representing ingress protection requirements for equipment exposed to outdoor conditions.",
+    "keywords": [
+      "IP rating",
+      "ingress protection",
+      "water protection",
+      "dust protection",
+      "IP65",
+      "IP66",
+      "outdoor"
+    ],
+    "keyword_weights": {
+      "IP rating": 4,
+      "ingress protection": 5,
+      "water protection": 4,
+      "dust protection": 4,
+      "IP65": 6,
+      "IP66": 6,
+      "outdoor": 2
+    },
+    "clauses": [
+      {
+        "clause": "E-3.1",
+        "title": "Ingress protection",
+        "evidence": "The required level of protection against dust and water ingress should be specified."
+      }
+    ],
+    "references": [],
+    "related_standards": [
+      "DEMO-LED-001"
+    ]
+  }
+]

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <title>DISHA</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+  <div class="popup">
+
+    <header class="header">
+      <div class="brand">
+        <div class="brand-mark">D</div>
+
+        <div>
+          <h1>DISHA</h1>
+          <p>Indian Standards Assistant</p>
+        </div>
+      </div>
+
+      <div class="status-dot"></div>
+    </header>
+
+    <main class="content">
+
+      <!-- INPUT STATE -->
+
+      <section id="inputView">
+
+        <div class="eyebrow">
+          PROCUREMENT INTELLIGENCE
+        </div>
+
+        <h2>Analyze procurement text</h2>
+
+        <p class="description">
+          Select technical specification text on a procurement
+          page and analyze it with DISHA.
+        </p>
+
+        <div id="selectionStatus" class="selection-status">
+          Checking selected text...
+        </div>
+
+        <div id="selectedTextBox" class="selected-text-box hidden">
+          <div class="selected-label">
+            SELECTED TEXT
+          </div>
+
+          <div id="selectedText"></div>
+        </div>
+
+        <button id="analyzeButton" class="primary-button" disabled>
+          Analyze with DISHA
+          <span>→</span>
+        </button>
+
+        <button id="openDisha" class="secondary-button">
+          Open DISHA Dashboard
+        </button>
+
+      </section>
+
+
+      <!-- LOADING STATE -->
+
+      <section id="loadingView" class="hidden">
+
+        <div class="eyebrow">
+          DISHA ANALYSIS
+        </div>
+
+        <h2>Analyzing specification</h2>
+
+        <p class="description">
+          DISHA is matching the procurement requirements against
+          the current prototype standards knowledge base.
+        </p>
+
+        <div class="loading-box">
+          <div class="spinner"></div>
+
+          <div>
+            <strong>Finding applicable standards</strong>
+            <span>Please wait...</span>
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- RESULT STATE -->
+
+      <section id="resultView" class="hidden">
+
+        <div class="result-header">
+          <div>
+            <div class="eyebrow">
+              ANALYSIS COMPLETE
+            </div>
+
+            <h2>Standards identified</h2>
+          </div>
+
+          <div id="resultCount" class="result-count">
+            0
+          </div>
+        </div>
+
+        <div id="resultCompleteness" class="completeness">
+        </div>
+
+        <div id="recommendations" class="recommendations">
+        </div>
+
+        <button id="viewFullAnalysis" class="primary-button">
+          View Full Analysis
+          <span>→</span>
+        </button>
+
+        <button id="newAnalysis" class="secondary-button">
+          Analyze Another Selection
+        </button>
+
+      </section>
+
+    </main>
+
+    <footer class="footer">
+
+      <div class="connection">
+        <span class="connection-dot"></span>
+
+        <div>
+          <strong>DISHA system</strong>
+          <span>Checking connection...</span>
+        </div>
+      </div>
+
+      <div class="prototype">
+        Prototype Knowledge Base
+      </div>
+
+    </footer>
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
